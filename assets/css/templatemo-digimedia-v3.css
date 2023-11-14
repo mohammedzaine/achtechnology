@@ -2024,8 +2024,8 @@ responsive
   .header-area .main-nav .logo h4 {
     font-size: 30px;
   }
-  .header-area .main-nav .logo h4 img {
-    max-width: 30px;
+  .header-area .main-nav .logo img {
+    max-width: 70px;
     margin-left: 5px;
   }
   .main-banner .info-stat {
