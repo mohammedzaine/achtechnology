@@ -1,36 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Fixer</title>
     <style>
-      body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        background-color: purple;
-        color: white;
-        font-family: "Arial", sans-serif;
-      }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #941e87;
+            color: #fff;
+        }
 
-      .center-text {
-        text-align: center;
-      }
+        .container {
+            text-align: center;
+        }
 
-      .sub-text {
-        font-size: 1.5em;
-      }
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }
+
+        h1 {
+            color: #fff;
+            font-family: "Lucida Handwriting", cursive;
+        }
+
+        .coming-soon-text {
+            color: #ddd;
+        }
+
+        .animated-icon {
+            font-size: 2em;
+            color: #ff8800;
+            animation: rotate 2s infinite linear;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
     </style>
-  </head>
-  <body>
-    <div class="center-text">
-      <div class="main-logo"><img src="/ressources/logo-removebg-preview.png" alt=""></div>
-      <div class="sub-text"><img src="/ressources/icon.png" alt=""></div>
-      
+</head>
+<body>
+    <div class="container">
+        <img src="/ressources/logo-removebg-preview.png" alt="Startup Logo" class="logo">
+        <h1>Coming Soon..</h1>
+        <div class="animated-icon">🔄</div>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/fixer.ma/" target="_blank"><i class="fa fa-instagram" style="font-size:24px; color: white;"> fixer.ma</i></a>
+      </div>
+      <br>
+        
     </div>
-  </body>
+</body>
 </html>
